@@ -1,0 +1,11 @@
+h3 {
+    color: rgb(193, 236, 0);
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.sub-title {
+    font-weight: bold;
+    font-style: italic;
+}
