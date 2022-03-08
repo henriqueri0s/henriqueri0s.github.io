@@ -1,0 +1,34 @@
+body {
+    background-color: rgb( 223, 215, 185 );
+    color: rgb(51,51,51);
+}
+h1 {
+    color: #0d1b97;
+    font-family: Tangerine, sans-serif;
+font-size: 75px;
+}
+.job-title {
+    background-color: #1726ad;
+    color: #898dbe;
+    font-family: ole, sans-serif;
+font-size: 35px;
+}
+
+#high {
+    color: rgb(13, 27, 151);
+}
+ul {
+    background-color: #333333;
+    color: rgb(223, 215, 185);
+}
+p {
+    font-family: redressed, sans-serif;
+}
+
+h2 {font-family: ole, sans-serif;
+font-size: 35px;
+}
+ul{
+font-family: redressed, sans-serif;
+font-size: 18px
+}
