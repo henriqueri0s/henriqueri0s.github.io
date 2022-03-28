@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxheader1 {
+    display: flex;
+    background-color: #222222;
+    font-size: 0.625rem;
+    color: white;
+    font-family: roboto, sans-serif;
+    justify-content: space-between;
+    height: 20px;
+    
+}
+.oferta{
+    margin-left: 90px;
+    margin-top: 4px;
+}
+
+select {
+    background-color: #222222;
+    font-size: 0.625rem;
+    color: white;
+    font-family: roboto, sans-serif;
+    border-style: none;
+    outline: transparent;
+    outline-offset: 0px;
+    margin-top: 4px;
+    
+}
+
+.boxmi{
+    margin-right: 52px;
+    justify-content: space-between;
+}
+.boxheader2{
+    display: flex;
+    background-color: #F0A83E;
+    height: 62px;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 40px;
+    margin-top: 19px;
+}
+.boxmenu {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 23px;
+    font-size: 0.8125rem;
+    color: white;
+    font-family: roboto, sans-serif;
+    justify-content: space-between;
+    height: 15px;
+    width: 343px;
+    
+}
+.bgmain {
+    background-image: url(../img/bg.png);
+    
+}

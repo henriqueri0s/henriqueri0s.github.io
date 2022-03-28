@@ -134,12 +134,12 @@ footer {
     margin-top: 35px;
 }
 head{
-    position: relative;
+    display: flex;
     margin: 0px;
     padding: 0px;
 }
 body {
-    position: relative;
+    display: flex;
     margin: 0px;
     padding: 0px;
 }

@@ -27,7 +27,7 @@ body {
 .videos {
 
     width: 100%;
-    display: flex;
+    position: relative;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;

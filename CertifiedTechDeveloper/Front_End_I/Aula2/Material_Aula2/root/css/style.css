@@ -15,14 +15,14 @@
 .container {
     height: 100vh;
     padding: 30px;
-    display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
 }
 
 header {
-    display: flex;
+    position: relative;
     justify-content: center;
 }
 
@@ -42,7 +42,7 @@ main .marquee {
 
 main .marquee .marquee__inner {
     width:fit-content;
-    display: flex;
+    position: relative;
     animation: marquee 11s linear infinite;
     /* transform: translateX(-25%); */
     white-space:nowrap
@@ -80,6 +80,6 @@ main .marquee:nth-child(3) {
  
 
 footer {
-    display: flex;
+    position: relative;
     justify-content: center;
 }
