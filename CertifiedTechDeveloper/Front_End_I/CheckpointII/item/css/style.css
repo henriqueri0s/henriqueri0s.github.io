@@ -10,7 +10,7 @@
 .fotobanner{
     background-image: url(../img/bannercdz.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 82vh;
     width: 100vw;
     margin-bottom: 1rem;
