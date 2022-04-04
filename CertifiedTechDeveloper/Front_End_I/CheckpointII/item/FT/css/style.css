@@ -77,6 +77,83 @@ iframe{
     width: 90vw;
     height: 75vh;
 }
+footer{
+    background-color: #0E0E0E;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    
+}
+.boxaluno{
+    font-family: 'teko';
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    margin-top: 2.2rem;
+    text-align: center;
+}
+
+.nome1 {
+    color: bisque;
+    font-size: 1.8rem;
+}
+.resp{
+    color: bisque;
+    font-size: 1.1rem;
+    
+}
+.redes{
+    margin-top: 1rem;
+}
+header{
+    background-color: #0E0E0E;
+    width: 100vw;
+}
+.logo{
+    width: 50vw;
+}
+.boxheader{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.menubox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 33vw;
+}
+
+.itemenu{
+    color: bisque;
+    font-family: 'Teko';
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}  
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    
+} 
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+#btn-mobile{
+    display: none;
+}
  @media (max-width:568px) {
     .fotobanner{
         background-image: url(../img/bcelular.jpg);
@@ -101,6 +178,55 @@ iframe{
     iframe{
         height: 35vh;
     }
+    header{
+    background-color: #0E0E0E;
+    width: 100vw;
+}
+.logo{
+    width: 50vw;
+}
+.boxheader{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.menubox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 33vw;
+}
+
+.itemenu{
+    color: bisque;
+    font-family: 'Teko';
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}  
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    
+} 
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+#btn-mobile{
+    display: none;
+}
  }
 @media (min-width:569px) and (max-width:912px){
     .fotobanner{
@@ -113,4 +239,77 @@ iframe{
     iframe{
         height: 45vh;
     }
+}
+@media (max-width:900px){
+    footer{
+        flex-direction: column;
+        height: max-content;
+        
+    }
+    .boxaluno{
+        margin-bottom: 2.2rem;
+    }
+}
+@media (max-width: 780px){
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #menu{
+        display: block; 
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        top: 12rem;
+        right: 0px;
+        background: #0E0E0E;
+        z-index: 1000;
+    }
+    #nav.active #menu {
+        display: block;
+        height: 100vh;
+        visibility: visible;
+    } 
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    }
+    #hamburger {
+        color: bisque;
+        border-top: 3px solid;
+        width: 20px;
+        
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 3px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    
+    }
+
 }
