@@ -79,7 +79,7 @@ iframe{
 }
  @media (max-width:568px) {
     .fotobanner{
-        background-size: cover;
+        background-size: contain;
         height:25vh;
     }
     .nome{
@@ -103,7 +103,7 @@ iframe{
  }
 @media (min-width:569px) and (max-width:912px){
     .fotobanner{
-        background-size: cover;
+        background-size: contain;
         height: 33vh;
     }
     .box2{
