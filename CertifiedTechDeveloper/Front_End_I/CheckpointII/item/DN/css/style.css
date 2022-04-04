@@ -5,10 +5,10 @@
 }
   
 .fotobanner{
-    background-image: url(../img/bannercdz.jpg);
+    background-image: url(../img/BannerDN.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84vh;
+    height: 50vh;
     width: 100vw;
     margin-bottom: 1rem;
     
@@ -80,7 +80,7 @@ iframe{
  @media (max-width:568px) {
     .fotobanner{
         background-size: cover;
-        height:25vh;
+        height: 25vh;
     }
     .nome{
         font-size: 3rem;
@@ -103,8 +103,8 @@ iframe{
  }
 @media (min-width:569px) and (max-width:912px){
     .fotobanner{
-        background-size: cover;
-        height: 33vh;
+        background-size: contain;
+        height: 20vh;
     }
     .box2{
         width: 80vw;

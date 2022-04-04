@@ -5,10 +5,10 @@
 }
   
 .fotobanner{
-    background-image: url(../img/bannercdz.jpg);
+    background-image: url(../img/bannernaruto.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84vh;
+    height: 70vh;
     width: 100vw;
     margin-bottom: 1rem;
     

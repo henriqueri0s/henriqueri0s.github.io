@@ -9,5 +9,5 @@ Lista de Itens
 2 Naruto
 3 Dragonball Z
 4 One Piece  
-5 
-6 
+5 FairyTail
+6 DeathNote

@@ -5,10 +5,10 @@
 }
   
 .fotobanner{
-    background-image: url(../img/bannerdbz.jpg);
+    background-image: url(../img/bannerdbz.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: ;
+    background-size: cover;
+    height: 50vh;
     width: 100vw;
     margin-bottom: 1rem;
     
