@@ -15,6 +15,8 @@
     transform: scale3d(1.5, 1.5, 1.5);
 
 }
+
+
 .carousel-control-next:hover{
     transform: scale3d(1.5, 1.5, 1.5);
 
@@ -22,6 +24,9 @@
 .carousel-item{
     width: 100vw;
     
+}
+.carousel-inner {
+z-index: -999;
 }
 .itens {
     font-size: 3.9rem;
@@ -102,6 +107,8 @@
 header{
     background-color: #0E0E0E;
     width: 100vw;
+    z-index: 999;
+    position:fixed
 
 }
 .logo{
@@ -164,6 +171,7 @@ footer{
     margin-right: 2.2rem;
     margin-top: 2.2rem;
     text-align: center;
+    gap: 2vw;
 }
 
 .nome1 {
@@ -194,7 +202,7 @@ footer{
 ::-webkit-scrollbar-track-piece {
     width: 30px;
 }
-::-scrol
+
 @media (max-width:900px){
     footer{
         flex-direction: column;
@@ -204,7 +212,7 @@ footer{
     .boxaluno{
         margin-bottom: 2.2rem;
     }
-}
+
 
 @media (max-width: 780px){
     #btn-mobile{
@@ -266,4 +274,5 @@ footer{
         transform: rotate(-135deg);
         top: -7px;
     }
+}
 }
