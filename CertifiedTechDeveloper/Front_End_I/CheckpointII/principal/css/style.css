@@ -80,6 +80,8 @@
     height: 10%;
     font-family: 'Bebas Neue', cursive;
     border-radius: 10px 10px 0 0;
+    color: black;
+    
     background-color: #F4F4F4;
     position: relative;
     top: -13px;
@@ -95,6 +97,7 @@
     margin-right: 1.6vw;
     text-align: justify;
     font-family: 'Bebas Neue', cursive;
+    color:black;
 
 }
 header{
@@ -151,6 +154,7 @@ ul{
 footer{
     background-color: #0E0E0E;
     height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -265,4 +269,11 @@ footer{
         top: -7px;
     
     }
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 0578855ae65daa0c2872771e774ca678cfaec5b0
 }
