@@ -154,6 +154,78 @@ ul{
     
     color: bisque;
 }
+
+.popup-aboutus {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.13s;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.24);
+}
+.popup-aboutus:target {
+    opacity: 1;
+    pointer-events: all;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+.close-aboutus {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    z-index: 1;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    color: bisque;
+    align-self: flex-start;
+    left: 52vw;
+
+}
+.about-us {
+    position: relative;
+    top: 29.9vh;
+    width: 55vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    /* align-content: flex-end ; */
+    /* align-items: flex-end; */
+    align-items: flex-end;
+    margin: 0 auto;
+    background:  #0E0E0E;
+    border-radius: 12px;
+    box-shadow: rgb(0, 0, 0);
+    border: 2.35px solid #fb0505;
+    animation-name: borda;
+    animation-duration: 1s;
+    animation-delay: 5ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    backdrop-filter: blur(10px);
+    gap:20px;
+
+}
+.filipe {
+    /* align-self: center; */
+    margin: 0vh 4vw 3vh 0vw;
+
+}
+.filipe a {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
 .container {
     position: absolute;
     margin: 0 auto;
@@ -163,13 +235,13 @@ ul{
 }
 .frase-inicial {
     position: relative;
-    margin: 20vh auto;
+    margin: 8vh auto;
     z-index: 0;
     width: 55vw;
     color: bisque;
     font-family: 'Teko', sans-serif;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .ver-login {
@@ -177,12 +249,10 @@ ul{
     border: 1px solid bisque;
     box-sizing: border-box;
     border-radius: 12px;
-    padding-left: 5vw ;
-    padding-right: 5vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-left: 3vw ;
+    padding-right: 3vw;
     position: relative;
-    top: 5vh;
+    top: 1vh;
     left:19vw ;
     margin: 0 auto;
     text-decoration: none;
@@ -209,7 +279,7 @@ ul{
     box-shadow: rgb(0, 0, 0);
     border: 2.35px solid #fb0505;
     animation-name: borda;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-delay: 5ms;
     animation-iteration-count: infinite;
     animation-direction: alternate;
