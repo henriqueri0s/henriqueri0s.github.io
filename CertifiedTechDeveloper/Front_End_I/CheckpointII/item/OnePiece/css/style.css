@@ -63,7 +63,8 @@
     margin-left: 2.7rem;
 
 }
-
+a.itemenu:hover {color:#0d6efd;
+}
 h4{
     font-family: 'Bebas neue';
     font-size: 1.6rem;

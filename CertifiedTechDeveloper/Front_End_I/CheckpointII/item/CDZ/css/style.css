@@ -69,10 +69,7 @@ h4{
     font-family: 'Bebas neue';
     font-size: 1.6rem;
 }
-a{
-    font-family: 'Teko', sans-serif;
-    font-size: 1.3rem;
-    
+a.itemenu:hover {color:#0d6efd;
 }
 iframe{
     width: 90vw;
@@ -109,6 +106,7 @@ footer{
 header{
     background-color: #0E0E0E;
     width: 100vw;
+
 }
 .logo{
     width: 50vw;
@@ -133,7 +131,8 @@ header{
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-}  
+}
+
 ul{
     margin: 0px;
     padding: 0px;

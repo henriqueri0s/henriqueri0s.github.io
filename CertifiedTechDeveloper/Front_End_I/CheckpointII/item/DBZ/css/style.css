@@ -124,7 +124,8 @@ header{
     align-items: center;
     width: 33vw;
 }
-
+a.itemenu:hover {color:#0d6efd;
+}
 .itemenu{
     color: bisque;
     font-family: 'Teko';
