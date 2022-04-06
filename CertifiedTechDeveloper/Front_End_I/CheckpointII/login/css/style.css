@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* .topo {
     position: fixed;
     width: 100%;
@@ -24,6 +27,7 @@ header{
     background-color: #0E0E0E;
     width: 100vw;
     z-index: 1;
+    position:fixedgit
 }
 .logo{
     width: 50vw;

@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-  
+html {
+    scroll-behavior: smooth;
+}
 .fotobanner{
     background-image: url(../img/bannernaruto.jpeg);
     background-repeat: no-repeat;
@@ -109,6 +111,7 @@ a.itemenu:hover {color:#0d6efd;
 header{
     background-color: #0E0E0E;
     width: 100vw;
+    position:fixed
 }
 .logo{
     width: 50vw;

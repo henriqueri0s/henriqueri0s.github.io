@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
 }
+html {
+    scroll-behavior: smooth;
+}
   
 .fotobanner{
     background-image: url(../img/bannercdz.jpg);
@@ -106,7 +109,7 @@ footer{
 header{
     background-color: #0E0E0E;
     width: 100vw;
-
+    position:fixed
 }
 .logo{
     width: 50vw;

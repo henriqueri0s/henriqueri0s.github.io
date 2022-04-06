@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-  
+html {
+    scroll-behavior: smooth;
+}
 .fotobanner{
     background-image: url(../img/BannerNFT.jpg);
     background-repeat: no-repeat;
@@ -108,6 +110,7 @@ footer{
 header{
     background-color: #0E0E0E;
     width: 100vw;
+    position:fixed
 }
 .logo{
     width: 50vw;
