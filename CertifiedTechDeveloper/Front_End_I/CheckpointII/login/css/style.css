@@ -176,6 +176,7 @@ ul{
     animation-direction: alternate;
     backdrop-filter: blur(10px);
     gap:20px;
+    color: bisque;
 
 }
 .filipe {
@@ -262,6 +263,7 @@ ul{
 .form {
     width: 100%;
     z-index: 0;
+    
 }
 .logo-form {
     height: 10vh;
@@ -284,11 +286,12 @@ ul{
     height: 10vh;
     margin-top: 3vh;
     z-index: 1;
+    
 }
 .label{
     margin-left: 2vw;
     z-index: 1;
-    color: white;
+    color: bisque;
 }
 #email{
     argin: 0 auto;
@@ -336,6 +339,8 @@ ul{
     border: 1px solid #A4A4A4;
     box-sizing: border-box;
     border-radius: 12px;
+    color: bisque;
+
 }
 .button button {
     background: rgb(0, 0, 0, 0);

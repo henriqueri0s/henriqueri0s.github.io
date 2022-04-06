@@ -2,9 +2,29 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+}
+body {
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    opacity: 0;
+}
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+    height: 11px;
+}
+::-webkit-scrollbar-track-piece {
+    width: 30px;
 }
 .fotobanner{
     background-image: url(../img/BannerDN.png);
@@ -79,6 +99,7 @@ iframe{
     width: 90vw;
     height: 75vh;
 }
+
 footer{
     background-color: #0E0E0E;
     height: 20vh;
@@ -105,34 +126,10 @@ footer{
     
 }
 .redes{
-    margin-top: 1rem;
-}footer{
-    background-color: #0E0E0E;
-    height: 20vh;
     display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    
-}
-.boxaluno{
-    font-family: 'teko';
-    margin-left: 2.2rem;
-    margin-right: 2.2rem;
-    margin-top: 2.2rem;
-    text-align: center;
-}
-
-.nome1 {
-    color: bisque;
-    font-size: 1.8rem;
-}
-.resp{
-    color: bisque;
-    font-size: 1.1rem;
-    
-}
-.redes{
-    margin-top: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1vw;
 }
 header{
     background-color: #0E0E0E;

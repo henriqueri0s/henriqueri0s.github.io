@@ -6,6 +6,25 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    opacity: 0;
+}
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+    height: 11px;
+}
+::-webkit-scrollbar-track-piece {
+    width: 30px;
+}
 .fotobanner{
     background-image: url(../img/opbanner.jpg);
     background-repeat: no-repeat;
@@ -156,8 +175,13 @@ footer{
     
 }
 .redes{
-    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1vw;
 }
+
+
 
  @media (max-width:568px) {
     .fotobanner{
