@@ -15,7 +15,7 @@ html {
     height: 84vh;
     width: 100vw;
     margin-bottom: 1rem;
-    
+    z-index: 1000;
 }
 
 .box1{
@@ -109,7 +109,8 @@ footer{
 header{
     background-color: #0E0E0E;
     width: 100vw;
-    position:fixed
+    
+   
 }
 .logo{
     width: 50vw;
