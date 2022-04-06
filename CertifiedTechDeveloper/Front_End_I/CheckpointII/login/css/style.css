@@ -6,17 +6,6 @@
 html {
     scroll-behavior: smooth;
 }
-/* .topo {
-    position: fixed;
-    width: 100%;
-    height: 80px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: yellowgreen;
-    z-index: 2;
-
-} */
 body {
     width: 100vw;
     height: 100vh;
@@ -29,6 +18,23 @@ header{
     z-index: 1;
     position:fixedgit
 }
+::-webkit-scrollbar {
+    width: 3px;
+    opacity: 0;
+}
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+    height: 11px;
+}
+::-webkit-scrollbar-track-piece {
+    width: 30px;
+}
+
 .logo{
     width: 50vw;
 }
@@ -75,50 +81,9 @@ ul{
 #btn-mobile{
     display: none;
 }
-/* }
-.barra-sup {
-    position: fixed;
-    width: 100%;
-    height: 80px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFFF;;
-    z-index: 1;
-    margin-right: 90px;
-    flex-wrap: nowrap;
-}
-.link {
-    position: relative;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    margin-right: 1vw;
-}
-.link:hover {
-    background-color: rgb(0, 0, 0,0.2);
-    border-radius: 20px ;
-    padding: 9px;
-    /* border: 3px solid #fb0505;; */
-    animation-name: borda-links;
-    animation-duration: 500ms;
-    animation-delay:  1ms;
-
-@keyframes borda-links {
-    0% {background-color: #708090; background: linear-gradient(to right, #708090);}
-}
 .link:active {
     opacity: 0.2;
-
 }
-/* .links {
-    position: absolute;
-    width: 35vw;
-    z-index: 0;
-    left: 70%;
-} */
 
 
 .popup {
@@ -146,7 +111,6 @@ ul{
     height: 40px;
     align-self: end;
     z-index: 1;
-
     font-family: 'Teko';
     font-style: normal;
     font-weight: 400;
@@ -155,7 +119,6 @@ ul{
     text-align: center;
     letter-spacing: -0.015em;
     text-decoration: none;
-    
     color: bisque;
 }
 
@@ -200,10 +163,6 @@ ul{
     height: 55vh;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* justify-content: flex-end; */
-    /* align-content: flex-end ; */
-    /* align-items: flex-end; */
     align-items: flex-end;
     margin: 0 auto;
     background:  #0E0E0E;
@@ -220,13 +179,20 @@ ul{
 
 }
 .filipe {
-    /* align-self: center; */
-    margin: 0vh 4vw 3vh 0vw;
+    position: relative;
+    margin: 0vh 1vw 3vh auto;
+    font-size: 0.3em;
 
 }
 .filipe a {
     margin-left: 1vw;
     margin-right: 1vw;
+}
+.perfil {
+    width: auto;
+    height: 18vh;
+    border-radius: 90px;
+    margin-bottom: 6vh;
 }
 
 
@@ -263,8 +229,8 @@ ul{
     color: #00f6cb;
 }
 .ver-login:hover {
-    background-color: #FFFFFF;
-    color: black;
+    background-color: #0d6efd;
+    color: #FFFFFF;
 }
 .formulario {
     position: relative;
@@ -273,9 +239,7 @@ ul{
     height: 55vh;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    /* align-content: center; */
     align-items: center;
     margin: 0 auto;
     background:  #0E0E0E;
@@ -338,15 +302,14 @@ ul{
     z-index: 1;
 }
 #email:hover {
-    background-color: #a4a4a41c;
+    background-color: #0d6efd;
     animation-name: input-background;
-    animation-duration: 300ms;
+    animation-duration: 700ms;
     animation-delay: 1ms;
     animation-direction: alternate;
 }
 @keyframes input-background {
-    0% {background-color: #708090; background: linear-gradient(to right, #7080905d,);}
-
+    0% {background-color: #FFFFFF; background: linear-gradient(to right, #0d6efd);}
 }
 
 .password {
@@ -355,14 +318,14 @@ ul{
     height: 10vh;
 }
 #password:hover {
-    background-color: #a4a4a41c;
+    background-color: #0d6efd;
     animation-name: input-background;
-    animation-duration: 500ms;
-    animation-delay: 1ms;
+    animation-duration: 700ms;
+    animation-delay: 0ms;
     animation-direction: alternate;
 }
 @keyframes input-background {
-    0% {background-color: #70809013; background: linear-gradient(to right, #70809027);}
+    0% {background-color: #FFFFFF; background: linear-gradient(to right, #0d6efd);}
 
 }
 #password{
@@ -375,14 +338,19 @@ ul{
     border-radius: 12px;
 }
 .button button {
-    width: 35vw;
-    border-color: black;
-    border: 1px;
-    background-color: none;
-    border-radius: 15px;
+    background: rgb(0, 0, 0, 0);
+    border: 1px solid bisque;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 0 auto;
+    color: bisque;
+    margin-top: 2vh;
+    font-size: 19px;
+
 }
 .button button:hover {
-    background: linear-gradient(to right, #a4a4a427, #a4a4a41c);
+    background-color: #0d6efd;
+    color: #00f6cb;
 }
 
 #enviar {
@@ -464,4 +432,41 @@ ul{
         z-index: 1;
 
     }
+    .about-us {
+        position: relative;
+        top: 29.9vh;
+        width: 55vw;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin: 0 auto;
+        background:  #0E0E0E;
+        border-radius: 12px;
+        box-shadow: rgb(0, 0, 0);
+        border: 2.35px solid #fb0505;
+        animation-name: borda;
+        animation-duration: 1s;
+        animation-delay: 5ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        backdrop-filter: blur(10px);
+        gap:10px;
+    
+    }
+    .filipe {
+        align-self: center;
+        position: relative;
+        margin: 0vh auto auto auto;
+        font-size: 0.3em;
+    
+    }
+    .filipe a {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .perfil {
+        display: none;
+    }
+    
 }
