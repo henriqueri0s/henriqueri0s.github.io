@@ -62,14 +62,10 @@ let curso = {
       let novoAluno = new  Aluno(nome, faltas, notas, matricula)
       this.listaDeEstudantes.push(novoAluno)
         novoAluno.calcularMedia()
-    },
+    }
 
-// 5. Crie um método para o objeto curso que receba um aluno (como parâmetro) e retorne true se ele aprovou no curso ou false em caso de reprovação. Para ser aprovado, o aluno tem que ter uma média igual ou acima da nota de aprovação  e ter menos faltas que faltas máximas. Se tiver a mesma quantidade, tem que estar 10% acima da nota de aprovação.
+
     
-encontrarAluno: (y)=>{ y = Aluno.matricula; this.listaDeEstudantes.find(function(Aluno){ return Aluno.matricula == y})
-
-
-}
 };
 
 curso.adcionarAluno("Aldous Huxley", 4, [7,1,0], 3);
@@ -78,9 +74,6 @@ curso.adcionarAluno("Albert Hofmann", 1, [9,6,9], 4);
 curso.adcionarAluno("Thomas Chong", 10, [4,2,0], 5);
 
 
-//console.log("Lista de Estudantes e teste do método adcionarAluno", curso.listaDeEstudantes);
 
-
-console.log( curso.encontrarAluno(3));
 
 
