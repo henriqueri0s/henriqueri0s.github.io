@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FrontEndII - Ponto de verificação I</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>SUPER TRUNFO</h1>
+    </header>
+
+    <main id="main">
+        <card id="card">
+            <div class="card__header">
+                <div class="card__cod">C3</div>
+                <div class="card__title">Motos Custom</div>
+            </div>
+            <form id="card__form" action="." method="post">
+                <label for="card__image">Cole abaixo a url da imagem:
+                    <input type="text" name="image" id="card__image">
+                </label>
+                <div id="card__bike-name">
+                    <input type="text" id="bike-name" class="card-name" maxlength="25" placeholder="Digite o nome da moto">
+                </div>
+                <div id="card__yellow-box">
+                    <div id="card__feature-label">
+                        <label for="Km/h">Km/h</label>
+                        <label for="HP">HP</label>
+                        <label for="RPM">RPM</label>
+                        <label for="Cilindradas">Cilindradas</label>
+                        <label for="Cilindros">Cilindros</label>
+                        <label for="Peso">Peso</label>
+                    </div>
+                    <div id="card__feature-value">
+                        <input type="text" id="Km/h" class="card-value">
+                        <input type="text" id="HP" class="card-value">
+                        <input type="text" id="RPM" class="card-value">
+                        <input type="text" id="Cilindradas" class="card-value">
+                        <input type="text" id="Cilindros" class="card-value">
+                        <input type="text" id="Peso" class="card-value">
+                    </div>
+                </div>
+            </form>
+        </card>
+        <button id="btn" type="submit" disabled>Criar</button>
+    </main>
+
+    <section id="section">
+
+    </section>
+
+    <footer id="footer">
+        <h4>Desenvolvido por brinquedos Estrela</h4>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
