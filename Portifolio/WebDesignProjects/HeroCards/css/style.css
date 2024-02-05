@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Descontos {
+    height: 38px;
+    left: 0px;  
+    top: 0px;
+    background-color: #1CD1B0;
+    }
+.desco {
+    padding: 5px;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Roboto, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: small;
+    font-size: 0.75rem;
+    line-height: 18px;
+}
+h1 {
+    padding: 10px;
+    width: 224px;
+    height: 47px;
+    left: 28px;
+    top: 66px;
+    font-family: Roboto, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    line-height: 47px;
+    color: #000000;
+}
+.superh{
+    position: sticky;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #00669F;
+    z-index: 10;
+}
+
+.boxherois{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.batman{
+    width: ;
+    
+}
+.capabatman{
+    position: relative;
+    margin-top: 40px;
+    width: 374px;
+    height: 217.81px;
+    top: 5px;
+    z-index: ;
+    background: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    border-radius: 16px 16px 0px 0px;
+    }
+.perfilbatman {
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 119.57px;
+    top: 119.57px;
+    border-radius: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+    
+}
+
+.nome {
+    position: relative;
+    width: 250.69px;
+    height: 39.5px;
+    left: 67px;
+    top: 75px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+
+}
+.desc {
+    position: relative;
+    width: 301.33px;
+    height: 127.53px;
+    top: 75px;
+    left: 40px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333333;
+}
+.rectangledesc {
+    width: 374px;
+    height: 379.2px;
+    left: 93px;
+    
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vermais {
+    position: relative;
+    width: 145.34px;
+    height: 54.76px;
+    left: 119.57px;
+    top: 69px;
+    margin-top: 10px;
+    background: #00669F;
+}
+
+.mulherm{
+    width: 33;
+    
+}
+.capaww{
+    position: relative;
+    margin-top: 40px;
+    width: 374px;
+    height: 217.81px;
+    top: 5px;
+    z-index: ;
+    background: url(../img/capaww.png);
+    border-radius: 16px 16px 0px 0px;
+    }
+.perfilww {
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 119.57px;
+    top: 119.57px;
+    border-radius: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(../img/wonderwoman.png);
+    background-size: cover;
+    
+}
+
+.superman{
+    
+    
+}
+
+.capasm{
+    position: relative;
+    margin-top: 40px;
+    width: 374px;
+    height: 217.81px;
+    top: 5px;
+    z-index: ;
+    background: url(../img/capasm.png);
+    border-radius: 16px 16px 0px 0px;
+    }
+.perfilsm {
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 119.57px;
+    top: 119.57px;
+    border-radius: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(../img/superman.png);
+    background-size: cover;
+}
+
+.arlequina{
+   
+    
+}
+.capaarlequina{
+    margin-top: 40px;
+    width: 374px;
+    height: 217.81px;
+    left: 95px;
+      
+    background: url(../img/2d7ba7d6fd90359157661c84fdf828f4.jpg);
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+    }
+.perfilarlequina {
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 119.57px;
+    top: 119.57px;
+    border-radius: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    background: url(../img/b6f616bb61603d4e0fc1ef712828fb3f.jpg);
+    background-size: cover;
+}
+
+
+
+footer {
+    position: relative;    
+    height: 51px;
+    margin-top: 50px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+.direitos {
+    padding: 5px;
+    width: 299px;
+    height: 19px;
+    left: 28px;
+    top: 988px;
+    
+    font-family: Roboto, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+    color: #FFF9F9;
+}
+
+.heart {
+    width: 25px;
+    height: 25px;
+    background: url(../img/Coração\ Vetor\ Vermelho\ -\ Imagem\ Sem\ Fundo\ No\ Formato\ Png.png);
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+
+@media (max-width: 480px){
+
+    /* celular */
+    body{
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 768px) and (min-width:481px){
+    /* tablet */
+    body{
+        background-color: #333333;
+    }
+}

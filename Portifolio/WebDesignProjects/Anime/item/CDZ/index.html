@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>Animes Project - Cavaleiros Do Zodíaco</title>
+    <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '685230236142299');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=685230236142299&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+    <header><div id="header" class="boxheader"><div class="logo"><img src="./img/logo.jpg" alt=""></div>
+        <nav id="nav">
+          <button id="btn-mobile">
+            <span id="hamburger"></span>
+          </button>
+        <ul id="menu">
+        <li><a class="itemenu" href="../../principal/index.html">Home</a></li>
+        <li><a class="itemenu" href="../../principal/index.html#itens">Itens</a></li>
+        <li><a class="itemenu" href="#footer">Sobre nós</a></li>
+        <li><a class="itemenu" href="../../login/index.html">Login</a></li>
+    
+        </ul></nav></div>
+      </header>
+    <main>
+        <section class="banner">
+        <div class="fotobanner">
+           
+        </div>
+        </section>
+        <section class="corpo">
+            <div class="box1">
+                <h2 class="nome">Cavaleiros do Zodíaco</h2>
+                <div class="avaliacao"><img src="./img/Vector.png" alt=""><img src="./img/Vector.png" alt=""><img src="./img/Vector.png" alt=""><img src="./img/Vector.png" alt=""><img src="./img/Vector.png" alt=""></div>
+                <div class="desc">Saint Seiya (nome original da série) conta a história de um grupo de cinco jovens guerreiros cuja função era proteger Saori Kido, reencarnação de Atena, a deusa grega da sabedoria. Para lutar, eles utilizam a energia interior e do cosmos, e suas armaduras que são inspiradas em constelações e na mitologia grega.</div>
+                <div class="box2"><div class="box3"><h4 class="escritor">Escritor</h4><a href="https://pt.wikipedia.org/wiki/Masami_Kurumada">Masami Kurumada</a></div><div class="box4">
+                <h4>Estúdio de animação</h4>
+                <a href="https://pt.wikipedia.org/wiki/Toei_Animation">Toei Animation</a></div></div> 
+                <h3 class="trailer">Trailer</h3>
+                <div class="video"><iframe src="https://www.youtube.com/embed/1gftUBdwcmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>   
+        </section>
+    </main>
+    <footer id="footer">
+      <div class="boxaluno">
+        <div class="nome1">Henrique Rios Ribeiro</div>
+        <div class="resp">Responsável por: páginas dos Itens, header e footer</div>
+        <div class="redes"><a href="https://www.linkedin.com/in/henrique-ribeiro-299877112/"><img src="./img/image 2.png"
+              alt=""></a><span></span><a href="https://github.com/Derrettid0"><img src="./img/image 3.png" alt=""></a>
+        </div>
+      </div>
+      <div class="boxaluno">
+        <div class="nome1">Filipe</div>
+        <div class="resp">Responsável por: Login.</div>
+        <div class="redes"><a href="https://www.linkedin.com/in/filipe-rodrigues-7433a01b9/"><img src="./img/image 2.png"
+              alt=""></a><span></span><a href="https://github.com/filiperslima"><img src="./img/image 3.png" alt=""></a>
+        </div>
+      </div>
+      <div class="boxaluno">
+        <div class="nome1">Diogo</div>
+        <div class="resp">Responsável por: Pagina principal. </div>
+        <div class="redes"><a href="https://www.linkedin.com/in/diogo-rodrigues-519328225/"><img src="./img/image 2.png"
+              alt=""></a><span></span><a href="https://github.com/diogohr01"><img src="./img/image 3.png" alt=""></a>
+        </div>
+      </div>
+      </div>
+    </footer>
+<script src="./js/btnmobile.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>

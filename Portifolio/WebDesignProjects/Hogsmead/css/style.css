@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.resto {
+    background-image: url(..//img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 2px;
+}
+
+header{
+    width: 100%;
+    background-color: #511ba3;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    width: 100%;    
+    flex-wrap: wrap;
+}
+.logo {
+    background-image: url(..//img/Hogsmeade_WW_logo-removebg-preview.png);
+    background-size: 209px 143px;
+    width: 209px;
+    height: 143px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 645px;
+    height: 90px;
+    margin-right: 93px;
+    margin-top: 33px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menuitem{
+    font-family: 'Princess Sofia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.77rem;
+    line-height: 66px;
+    color: #000000;
+}
+
+.rectangle{
+    display: flex;
+    width: 190px;
+    height: 70px;
+    justify-content: center;
+    background: #e6ac00;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+    flex-wrap: wrap;
+}
+
+
+.banner {
+    background-image: url(../img/Hogsmead.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+    
+    
+}
+.curiosidades {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+.rect{
+    display: flex;
+    width: 422px;
+    height: 82px;
+    justify-content: center;
+    background: #944dff;
+    opacity: 0.8;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+    margin-left: 42px;
+    align-items: center;
+    margin-top: 30px ;
+    flex-wrap: wrap;
+}
+.rectv{
+    display: flex;
+    width: 130px;
+    height: 82px;
+    justify-content: center;
+    background: #944dff;
+    opacity: 0.8;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+    margin-left: 42px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.rdesc{
+    margin-top: 37px;
+    border-radius: 16px;
+    width: 335px;
+    height: 666px;
+    background-image:url(..//img/papiro.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.desc{
+    font-family: 'Architects Daughter', cursive;
+    width: 334px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+    font-size: 1rem;
+    color: #790404;
+    font-weight: 700
+}
+.casacapa{
+    background-image: url(../img/casadosgritos.jpg);
+    background-size: 335px 219px;
+    width: 335px;
+    height: 219px;
+    font-size: 1.2rem;
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.trescapa{
+    background-image: url(../img/tresvassouras.png);
+    background-size: cover;
+    background-position-x: -30px;
+    width: 335px;
+    height: 219px;
+    font-size: 1.2rem;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.javalicapa{
+    background-image: url(../img/cabecadejavali.png);
+    background-size: cover;
+    background-position-x: -96px;
+    width: 335px;
+    height: 219px;
+    font-size: 1.2rem;
+    border-radius: 16px 16px 0px 0px;
+}
+h2{
+    font-family: 'Princess Sofia';
+    font-style: normal;
+    font-weight: bold;
+    font-size:  2.7rem;
+    line-height: 42px;
+    
+    align-items: center;
+    color: #e6ac00;
+    
+    background-size: contain
+    width: 200px;
+    -webkit-text-stroke-width: 0.0001px;
+    -webkit-text-stroke-color: #790404;
+}
+.nome {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Jim Nightshade';
+    color: #790404;
+}
+.video {
+    font-family: 'Princess Sofia';
+    font-style: normal;
+    font-weight: bold;
+    font-size:  2.7rem;
+    line-height: 42px;
+    
+    align-items: center;
+    color: #e6ac00;
+    
+    background-size: contain
+    width: 200px;
+    -webkit-text-stroke-width: 0.0001px;
+    -webkit-text-stroke-color: #790404;
+
+}
+.vd{
+    display: flex;
+    justify-content: center;
+}
+.yt{
+    border-radius: 16px;
+    margin-bottom: 70px;
+    
+}
+footer{
+    background-color: #944dff;
+    width: 100%;
+    height: 120px;
+    
+}
+.finalboss{
+    display: flex;
+    justify-content: space-around;
+}
+.linkedin{
+    background-image: url(..//img/linkedin.png);
+    background-size: 100px;
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+}
+.github{
+    background-image: url(..//img/github.png);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+.hogs{
+    font-family: 'Princess sofia';
+    font-size: 5rem;
+    text-align: center;
+    color: #e6ac00;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: #790404;
+}
+.boxbanner{
+    display: flex;
+    justify-content: center;
+}
+.deschogs{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    width: 400px;
+    
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    color: #790404;
+    font-weight: 700
+}
+.recthogs{
+    margin-top: 10px;
+    border-radius: 16px;
+    width: 400px;
+    height: 380px;
+    background-image:url(..//img/papiro.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    opacity: 0.7;
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jim+Nightshade&family=Princess+Sofia&display=swap');
+@media (max-width:1280px){
+    header{
+        height: 400px;
+    }
+
+    .resto{
+        width: 100%;
+        background-size: contain;
+        background-image: url(..//img/pattern.jpg);
+        background-repeat: repeat-y;
+    }
+    .rect{
+        margin: auto;
+        width: 420px;
+    }
+    .banner{
+        background-size: cover;
+        background-image: url(..//img/bg.jpg);
+        
+    }
+    .vd{
+        justify-content: center;
+        margin: auto;
+    }
+    .rectv{
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .yt{
+        width: 400px;
+        height: 225px;
+    }
+    .celular{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+    
+}
